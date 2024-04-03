@@ -1,0 +1,92 @@
+Q1: 
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+product = num1 * num2
+summation = num1 + num2
+if product <= 1000:
+    result = product
+else:
+    result = summation
+
+print("Result:", result)
+
+Q2:
+prev_number = 0
+for i in range(1, 11):
+ 
+    total = i + prev_number
+    print("Sum of", i, "and", prev_number, "is:", total)
+    prev_number = i
+
+Q3:
+input_string = input("Enter a string: ")
+print("Characters at even index numbers:", input_string[::2])
+
+Q4:
+def remove_chars(input_string, n)
+    if n < len(input_string)
+        return input_string[n:]
+    else:
+        # If n is greater than or equal to the length of the string, return the original string
+        return input_string
+
+# Test cases
+print(remove_chars("pynative", 4))  # Output: tive
+print(remove_chars("pynative", 2))  # Output: native
+
+Q5:
+num_list = [1, 2, 3, 4, 5, 1]
+if num_list[0] == num_list[-1]:
+    print("First and Last Numbers are same")
+else:
+    print("Not Same")
+
+Q6:
+num_list = [10, 25, 30, 45, 50, 55, 60]
+print("Numbers divisible by 5:")
+for num in num_list:
+    if num % 5 == 0:
+        print(num)
+
+Q7:
+rows = 5
+for i in range(1, rows + 1):
+    # Print the numbers in each row
+    for j in range(i):
+        print(i, end=" ")
+    print()  # Move to the next line after each row
+
+Q8:
+number = input("Enter a number: ")
+if number == number[::-1]:
+    print("The number is a palindrome")
+else:
+    print("The number is not a palindrome")
+
+Q9:
+list1 = [1, 2, 3, 4, 5]
+list2 = [6, 7, 8, 9, 10]
+new_list = []
+
+for num in list1:
+    if num % 2 != 0:
+        new_list.append(num)
+for num in list2:
+    if num % 2 == 0:
+        new_list.append(num)
+
+print("New list:", new_list)
+
+Q10:
+number = int(input("Enter an integer: "))
+
+reverse_string = str(number)[::-1]
+print("Digits in reverse order:", ' '.join(reverse_string))
+
+
+
+
+
+
+
