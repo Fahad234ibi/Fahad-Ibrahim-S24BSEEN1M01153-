@@ -1,0 +1,4 @@
+number = int(input("Enter an integer: "))
+
+reverse_string = str(number)[::-1]
+print("Digits in reverse order:", ' '.join(reverse_string))
