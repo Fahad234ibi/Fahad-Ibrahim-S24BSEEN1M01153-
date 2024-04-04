@@ -1,0 +1,8 @@
+def remove_chars(input_string, n)
+    if n < len(input_string)
+        return input_string[n:]
+    else:
+        # If n is greater than or equal to the length of the string, return the original string
+        return input_string
+print(remove_chars("pynative", 4))  # Output: tive
+print(remove_chars("pynative", 2))  # Output: native
