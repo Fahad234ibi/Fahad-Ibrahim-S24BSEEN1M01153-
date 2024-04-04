@@ -1,0 +1,2 @@
+input_string = input("Enter a string: ")
+print("Characters at even index numbers:", input_string[::2])
